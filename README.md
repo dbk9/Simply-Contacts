@@ -1,4 +1,4 @@
-# Simply-ContactsGroup 22 Small Project:
+# Simply-Contacts:
 
 Important
 
