@@ -1,0 +1,149 @@
+
+body
+{
+    background-color: #d4d4d4;
+    background-image: url("/images/background.jpg");
+    background-size: 100% 100%;
+}
+
+input
+{
+    margin: 0.5em 0.5em 0.5em 0.5em;
+
+    border-top-color: #00000000;
+    border-left-color: #00000000;
+    border-right-color: #00000000;
+
+    background-color: #ffffff00;
+}
+input:hover
+{
+    box-shadow: 0 5px 5px 0 #00000010, 0 5px 5px 0 #00000010;
+}
+input:focus
+{
+    outline: none;
+    box-shadow: 0 5px 5px 0 #00000010, 0 5px 5px 0 #00000010;
+}
+
+textarea
+{
+    color: #000000;
+}
+
+textarea:focus, select:focus{
+    outline: none;
+}
+
+::placeholder
+{
+    color:#000000b0;
+}
+
+button
+{
+    text-align: center;
+    height: 2em;
+    width: 5.5em;
+    background-color: #00000000;
+    border-radius: 5px;
+    padding: 3px 3px 3px 3px;
+    margin: 5px 5px 5px 5px;
+}
+button:hover
+{
+    background-color: #ffffff50;
+}
+
+.center
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerH
+{
+    text-align: center;
+}
+
+.glossyBlur
+{
+    background-color: rgba(255, 255, 255, 0.25);  
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+}
+
+::selection
+{
+    color: #000000;
+    background: #ffffff50;
+}
+
+.red
+{
+    background-color: #00000000;
+}
+.red:hover
+{
+    background-color: #ff000040;
+}
+
+.orange
+{
+    background-color: #00000000;
+}
+.orange:hover
+{
+    background-color: #ff7b0040;
+}
+
+.green
+{
+    background-color: #00000000;
+}
+.green:hover
+{
+    background-color: #00ff0040;
+}
+
+.yellow
+{
+    background-color: #00000000;
+}
+.yellow:hover
+{
+    background-color: #fffb0040;
+}
+
+#mainCenter
+{
+    padding: 5em 5em 5em 5em;
+}
+
+#welcomeRow
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#confirmUnregisterView
+{
+    padding: 5em 5em 5em 5em;
+}
+
+#addContactButton
+{
+    width : 8em;
+}
+
+#contactRow:hover
+{
+    background-color: #ffffff25;
+}
+
+#noMatches:hover
+{
+    background-color: #ffffff25;
+}

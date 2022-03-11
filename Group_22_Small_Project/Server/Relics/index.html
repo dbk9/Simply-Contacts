@@ -1,0 +1,52 @@
+<html lang="en">
+    <head>
+        <title>COP 4331 Small Project</title>
+        <script type="module" src="/js/indexMaster.js"></script>
+        
+        <!-- BootStrap Imports -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/styleSheet.css">
+
+    </head>
+
+    <body id="index" class="index container-fluid">
+
+        <h1 id="title">COP 4331 Small Project</h1>
+        
+        <div id="loginDiv" class="center" style="display:inline">
+
+            <span id="innerSpan">Please Login<br></span>
+
+            <input type="text" id="username" placeholder="Username" />
+            <br />
+            <input type="password" id="password" placeholder="Password" />
+            <br/>
+            <button id="doLoginButton" class="buttons">Login</button>
+            <button id="goToRegister" class="buttons">Register</button>
+
+            <span id="loginResult"></span>
+        </div>
+
+        <div id="registerDiv" class="center" style="display:none">
+            
+            <span id="innerSpan">Please Complete the Form To Register<br></span>
+            
+            <input type="text" id="newFirstName" placeholder="First Name" />
+            <br/>
+            <input type="text" id="newLastName" placeholder="Last Name" />
+            <br/>
+            <input type="text" id="newUsername" placeholder="Username" />
+            <br/>
+            <input type="password" id="newPassword" placeholder="Password" />
+            <br/>
+            <button id="goToLogin" class="buttons">Cancel</button>
+            <button id="doRegisterButton" class="buttons">Register</button>
+            
+            <span id="addResult"></span>
+        </div>
+
+    </body>
+</html>

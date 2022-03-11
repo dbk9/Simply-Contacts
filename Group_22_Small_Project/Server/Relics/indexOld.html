@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>COP 4331 Small Project</title>
+        <script type="module" src="./js/indexMaster.js"></script>
+        <link rel="stylesheet" href="css/styleSheet.css">
+       
+
+    </head>
+
+    <body class="index">
+
+        <h1 id="title">COP 4331 Small Project</h1>
+
+        <div id="loginDiv" class="center" style="display:inline">
+
+            <span id="innerSpan">Please Login<br></span>
+
+            <input type="text" id="username" placeholder="Username" />
+            <br />
+            <input type="password" id="password" placeholder="Password" />
+            <br/>
+            <button id="doLoginButton" class="buttons">Login</button>
+            <button id="goToRegister" class="buttons">Register</button>
+
+            <span id="loginResult"></span>
+        </div>
+
+        <div id="registerDiv" class="center" style="display:none">
+            
+            <span id="innerSpan">Please Complete the Form To Register<br></span>
+            
+            <input type="text" id="newFirstName" placeholder="First Name" />
+            <br/>
+            <input type="text" id="newLastName" placeholder="Last Name" />
+            <br/>
+            <input type="text" id="newUsername" placeholder="Username" />
+            <br/>
+            <input type="password" id="newPassword" placeholder="Password" />
+            <br/>
+            <button id="goToLogin" class="buttons">Cancel</button>
+            <button id="doRegisterButton" class="buttons">Register</button>
+            
+            <span id="addResult"></span>
+        </div>
+
+    </body>
+</html>

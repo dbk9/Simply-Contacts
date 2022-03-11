@@ -1,0 +1,98 @@
+
+#index
+{
+    background-color: #d4d4d4;
+    background-image: url("/images/background.png");
+    background-size: 100% 100%;
+}
+
+#book
+{
+    content:url("/images/bookNoBackground.png");
+}
+
+#searchInput
+{
+    padding: 5px 2.5px 2.5px 5px;
+    text-align: center;
+}
+
+#contactsPageBody
+{
+    background-color: #d4d4d4;
+    background-image: url("/images/background.png");
+    background-size: 100% 100%;
+}
+
+#title
+{
+    color: black;
+    text-align: center;  
+}
+
+#loginDiv
+{
+    text-align: center;
+}
+
+#registerDiv
+{
+    text-align: center;
+}
+
+#functionalSide
+{
+    padding: 2em;
+}
+
+#displaySide
+{
+    padding: 2em;
+}
+
+.center
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centerH
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centerV
+{
+    text-align: center;
+
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttons
+{
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.buttons .hover
+{
+    background-color: rgb(0, 85, 0);
+    color:white;
+    opacity: 50%;
+}
+
+.delButton {
+    border-radius: 25px;
+    margin: 5px;
+    position: fixed;
+    left: 50%;
+    bottom: 30%;
+  }

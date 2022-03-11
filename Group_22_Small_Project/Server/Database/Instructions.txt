@@ -1,0 +1,16 @@
+Instructions on Database
+
+• I've made a remote server on DigitalOcean called "COP4331C"
+• The IP Address: 159.223.179.39 (if you go to it, you will see "We love COP4331")
+• I've also bought the domain "cop4331.xyz" and have updated the DNS with the IP address of the server(It should take 24-48 hours to populate)
+• To access the lamp droplet yourself you can open putty, login as "root" and enter password "COP4331C"
+• To go to the web root simply type "cd /var/www/html"
+• There you will see separate directories for LAMPAPI, css, images, and js
+• To open MySQL simply type "mysql -u root -p", password is : COP4331C
+• If you type "show databases;" you will see the "COP4331" database I've made for this project
+• To open that database, type "use COP4331;"
+• Type "show tables;" to see the tables I've made(which for this project, is Users and Contacts)
+• I've prepopulated data in this table. To see the data, type "select * from Users; " or "select * from Contacts; " depending on which you'd like to see
+• I have also created a user with granted privileges to the database identical to the one Leinecker has in his notes. 
+• The user for the database was made with this command : "create user 'TheBeast' identified by 'WeLoveCOP4331';"
+• Privileges granted with this command:  "grant all privileges on COP4331.* to 'TheBeast'@'%'; "

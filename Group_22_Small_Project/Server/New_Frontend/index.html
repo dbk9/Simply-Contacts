@@ -1,0 +1,74 @@
+<html>
+
+    <header>
+
+        <title>Simply Connect</title>
+        <script type="module" src="/js/indexMaster.js"></script>
+
+        <script type="application/javascript" src="/js/md5.js"></script>
+
+
+        <!-- BootStrap Imports -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/styleSheet.css">
+
+    </header>
+
+    <body id="indexContainer" class="center">
+
+        <div id="mainCenter" class="col-auto glossyBlur">
+
+            <div id="welcomeRow">
+
+                <h3>Welcome to Simply Connect</h3>
+                <h4>Please Login</h4>
+
+            </div>
+
+            <br><br><br>
+            
+            <div id="credentialsRow" class="row center">
+
+                <div id="loginDiv" class="centerH col-sm-auto" style="display:inline">
+
+                    <input id="username" type="text" placeholder="Username" label="Username">
+                    <br>
+                    <input id="password" type="password" placeholder="Password" label="Password">
+                    <br>
+                    <br>
+                    <div id="loginResult"></div>
+                    <br>
+                    <br>
+                    <button id="doLoginButton">Login</button>
+                    <button id="goToRegisterButton">Register</button>
+
+                </div>
+                    
+                <div id="registerDiv" class="centerH col-sm-auto" style="display:none">
+
+                    <input id="newFirstName" type="text" placeholder="First Name" label="First Name">
+                    <br>
+                    <input id="newLastName" type="text" placeholder="Last Name" label="Last Name">
+                    <br>
+                    <input id="newUsername" type="text" placeholder="Username" label="Username">
+                    <br>
+                    <input id="newPassword" type="password" placeholder="Password" label="Password">
+                    <br>
+                    <br>
+                    <div id="addResult"></div>
+                    <br>
+                    <button id="doRegisterButton">Register</button>
+                    <button id="goToLoginButton">Cancel</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
